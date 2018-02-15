@@ -8,7 +8,6 @@
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server",
     "dev": "npm run clean && webpack",
-    //"forever": "forever start server.js"
   },
   "author": "T-CDAP",
   "license": "ISC",
