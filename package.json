@@ -8,11 +8,12 @@
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server",
     "dev": "npm run clean && webpack",
+    "forever": "forever start server.js"
   },
   "author": "T-CDAP",
   "license": "ISC",
   "dependencies": {
-    "expres": "^4.14.0",
+    "express": "^4.14.0",
     "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
